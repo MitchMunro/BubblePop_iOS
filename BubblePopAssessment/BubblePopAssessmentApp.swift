@@ -10,8 +10,10 @@ import SwiftUI
 @main
 struct BubblePopAssessmentApp: App {
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+            WindowGroup {
+                NavigationStack{
+                    MenuView()
+                }
+            }
         }
-    }
 }

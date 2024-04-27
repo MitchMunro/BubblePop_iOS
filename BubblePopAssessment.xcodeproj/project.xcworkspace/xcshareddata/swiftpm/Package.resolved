@@ -1,0 +1,15 @@
+{
+  "originHash" : "3a670df3709801d4886cb080e29e3b5dc269debf63befe6d3c72f7c41f0d2b43",
+  "pins" : [
+    {
+      "identity" : "stitch",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/entrhq/stitch",
+      "state" : {
+        "branch" : "main",
+        "revision" : "e26561e44eafa1f951d7568100c6bb1b817e275c"
+      }
+    }
+  ],
+  "version" : 3
+}

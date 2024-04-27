@@ -7,18 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3050B9C12BDB7E8F0077E8D1 /* HighScoreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3050B9C02BDB7E8F0077E8D1 /* HighScoreModel.swift */; };
+		3050B9C32BDBCF060077E8D1 /* TestAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3050B9C22BDBCF060077E8D1 /* TestAnimation.swift */; };
+		3050B9C62BDBDC510077E8D1 /* Stitch in Frameworks */ = {isa = PBXBuildFile; productRef = 3050B9C52BDBDC510077E8D1 /* Stitch */; };
+		307CCED22BD9F44400B30B8D /* GameStatsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307CCED12BD9F44400B30B8D /* GameStatsModel.swift */; };
+		307CCED52BD9F5E200B30B8D /* ButtonComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307CCED42BD9F5E200B30B8D /* ButtonComponent.swift */; };
+		307CCED72BDA96E300B30B8D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307CCED62BDA96E300B30B8D /* SettingsView.swift */; };
+		307CCEDB2BDA9AC300B30B8D /* HighScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307CCEDA2BDA9AC300B30B8D /* HighScoreView.swift */; };
+		307CCEDD2BDA9AE200B30B8D /* HighScoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307CCEDC2BDA9AE200B30B8D /* HighScoreViewModel.swift */; };
 		30A6F51C2BBBA8BF00CD3965 /* BubblePopAssessmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A6F51B2BBBA8BF00CD3965 /* BubblePopAssessmentApp.swift */; };
-		30A6F51E2BBBA8BF00CD3965 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A6F51D2BBBA8BF00CD3965 /* ContentView.swift */; };
 		30A6F5202BBBA8C000CD3965 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30A6F51F2BBBA8C000CD3965 /* Assets.xcassets */; };
 		30A6F5232BBBA8C000CD3965 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30A6F5222BBBA8C000CD3965 /* Preview Assets.xcassets */; };
+		30A6F52C2BBBA94A00CD3965 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A6F52B2BBBA94A00CD3965 /* MenuView.swift */; };
+		30A6F52E2BBBAA2300CD3965 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A6F52D2BBBAA2300CD3965 /* SettingsViewModel.swift */; };
+		30A6F5302BBBAE0D00CD3965 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A6F52F2BBBAE0D00CD3965 /* GameView.swift */; };
+		30A6F5322BBBAED300CD3965 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A6F5312BBBAED300CD3965 /* GameViewModel.swift */; };
+		30B520252BDD208F000E97CA /* MenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B520242BDD208F000E97CA /* MenuViewModel.swift */; };
+		30E7E73B2BD8DDB800C404DD /* BubbleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E7E73A2BD8DDB800C404DD /* BubbleModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3050B9C02BDB7E8F0077E8D1 /* HighScoreModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighScoreModel.swift; sourceTree = "<group>"; };
+		3050B9C22BDBCF060077E8D1 /* TestAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAnimation.swift; sourceTree = "<group>"; };
+		307CCED12BD9F44400B30B8D /* GameStatsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStatsModel.swift; sourceTree = "<group>"; };
+		307CCED42BD9F5E200B30B8D /* ButtonComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonComponent.swift; sourceTree = "<group>"; };
+		307CCED62BDA96E300B30B8D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		307CCEDA2BDA9AC300B30B8D /* HighScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighScoreView.swift; sourceTree = "<group>"; };
+		307CCEDC2BDA9AE200B30B8D /* HighScoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighScoreViewModel.swift; sourceTree = "<group>"; };
 		30A6F5182BBBA8BF00CD3965 /* BubblePopAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BubblePopAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30A6F51B2BBBA8BF00CD3965 /* BubblePopAssessmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubblePopAssessmentApp.swift; sourceTree = "<group>"; };
-		30A6F51D2BBBA8BF00CD3965 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		30A6F51F2BBBA8C000CD3965 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30A6F5222BBBA8C000CD3965 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		30A6F52B2BBBA94A00CD3965 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		30A6F52D2BBBAA2300CD3965 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		30A6F52F2BBBAE0D00CD3965 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		30A6F5312BBBAED300CD3965 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		30B520242BDD208F000E97CA /* MenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewModel.swift; sourceTree = "<group>"; };
+		30E7E73A2BD8DDB800C404DD /* BubbleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +51,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3050B9C62BDBDC510077E8D1 /* Stitch in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		307CCED32BD9F5A200B30B8D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				307CCED42BD9F5E200B30B8D /* ButtonComponent.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		30A6F50F2BBBA8BF00CD3965 = {
 			isa = PBXGroup;
 			children = (
@@ -51,10 +85,22 @@
 		30A6F51A2BBBA8BF00CD3965 /* BubblePopAssessment */ = {
 			isa = PBXGroup;
 			children = (
+				307CCED32BD9F5A200B30B8D /* Components */,
 				30A6F51B2BBBA8BF00CD3965 /* BubblePopAssessmentApp.swift */,
-				30A6F51D2BBBA8BF00CD3965 /* ContentView.swift */,
 				30A6F51F2BBBA8C000CD3965 /* Assets.xcassets */,
 				30A6F5212BBBA8C000CD3965 /* Preview Content */,
+				30A6F52B2BBBA94A00CD3965 /* MenuView.swift */,
+				30A6F52F2BBBAE0D00CD3965 /* GameView.swift */,
+				30A6F5312BBBAED300CD3965 /* GameViewModel.swift */,
+				30E7E73A2BD8DDB800C404DD /* BubbleModel.swift */,
+				307CCED12BD9F44400B30B8D /* GameStatsModel.swift */,
+				30A6F52D2BBBAA2300CD3965 /* SettingsViewModel.swift */,
+				307CCED62BDA96E300B30B8D /* SettingsView.swift */,
+				307CCEDA2BDA9AC300B30B8D /* HighScoreView.swift */,
+				307CCEDC2BDA9AE200B30B8D /* HighScoreViewModel.swift */,
+				3050B9C02BDB7E8F0077E8D1 /* HighScoreModel.swift */,
+				3050B9C22BDBCF060077E8D1 /* TestAnimation.swift */,
+				30B520242BDD208F000E97CA /* MenuViewModel.swift */,
 			);
 			path = BubblePopAssessment;
 			sourceTree = "<group>";
@@ -83,6 +129,9 @@
 			dependencies = (
 			);
 			name = BubblePopAssessment;
+			packageProductDependencies = (
+				3050B9C52BDBDC510077E8D1 /* Stitch */,
+			);
 			productName = BubblePopAssessment;
 			productReference = 30A6F5182BBBA8BF00CD3965 /* BubblePopAssessment.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +160,9 @@
 				Base,
 			);
 			mainGroup = 30A6F50F2BBBA8BF00CD3965;
+			packageReferences = (
+				3050B9C42BDBDC510077E8D1 /* XCRemoteSwiftPackageReference "stitch" */,
+			);
 			productRefGroup = 30A6F5192BBBA8BF00CD3965 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +189,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30A6F51E2BBBA8BF00CD3965 /* ContentView.swift in Sources */,
+				307CCED22BD9F44400B30B8D /* GameStatsModel.swift in Sources */,
+				30B520252BDD208F000E97CA /* MenuViewModel.swift in Sources */,
+				30A6F52E2BBBAA2300CD3965 /* SettingsViewModel.swift in Sources */,
+				30A6F52C2BBBA94A00CD3965 /* MenuView.swift in Sources */,
+				30A6F5302BBBAE0D00CD3965 /* GameView.swift in Sources */,
+				307CCED72BDA96E300B30B8D /* SettingsView.swift in Sources */,
+				30E7E73B2BD8DDB800C404DD /* BubbleModel.swift in Sources */,
+				307CCEDB2BDA9AC300B30B8D /* HighScoreView.swift in Sources */,
+				30A6F5322BBBAED300CD3965 /* GameViewModel.swift in Sources */,
+				3050B9C12BDB7E8F0077E8D1 /* HighScoreModel.swift in Sources */,
+				307CCED52BD9F5E200B30B8D /* ButtonComponent.swift in Sources */,
 				30A6F51C2BBBA8BF00CD3965 /* BubblePopAssessmentApp.swift in Sources */,
+				3050B9C32BDBCF060077E8D1 /* TestAnimation.swift in Sources */,
+				307CCEDD2BDA9AE200B30B8D /* HighScoreViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +406,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3050B9C42BDBDC510077E8D1 /* XCRemoteSwiftPackageReference "stitch" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/entrhq/stitch";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3050B9C52BDBDC510077E8D1 /* Stitch */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3050B9C42BDBDC510077E8D1 /* XCRemoteSwiftPackageReference "stitch" */;
+			productName = Stitch;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 30A6F5102BBBA8BF00CD3965 /* Project object */;
 }
