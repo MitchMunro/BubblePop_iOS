@@ -18,7 +18,7 @@ struct GameView: View {
     
     @State var isOn = true
     
-    init(gameTime: Int = 10, playerName: String = "Player", maxNumberBubbles: Int = 15){
+    init(gameTime: Int = 30, playerName: String = "Player", maxNumberBubbles: Int = 15){
         _viewModel = StateObject(wrappedValue: GameViewModel(
             gameTimeTotal: gameTime,
             playerName: playerName,

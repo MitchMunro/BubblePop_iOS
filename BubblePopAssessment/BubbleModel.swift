@@ -33,7 +33,7 @@ class Bubble: Identifiable{
             return Bubble(position: position, size: size, color: .red, points: 1)
             
         case 41...70:
-            return Bubble(position: position, size: size, color: .pink, points: 2)
+            return Bubble(position: position, size: size, color: Color(red: 1.0, green: 0.0, blue: 0.8), points: 2)
             
         case 71...85:
             return Bubble(position: position, size: size, color: .green, points: 5)
